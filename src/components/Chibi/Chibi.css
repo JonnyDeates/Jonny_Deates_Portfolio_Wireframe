@@ -1,0 +1,23 @@
+.chibi {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: #d5d5d6;
+    cursor: pointer;
+}
+.chibi-frame {
+    position: absolute;
+
+    top: 50px;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 2;
+}
+@media (min-width: 480px) {
+    .chibi-frame {
+        position: absolute;
+        top: 25px;
+        left: 100px;
+        z-index: 2;
+    }
+}

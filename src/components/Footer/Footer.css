@@ -1,0 +1,27 @@
+.footer{
+    min-height: 20vh;
+    max-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: gray(2);
+}
+.footer-links {
+    font-size: large;
+    text-decoration: unset;
+    color: white;
+    cursor: pointer;
+}
+.footer-wrapper{
+    height: 30vh;
+    color: white;
+    padding: 2rem;
+    font-size: xx-large;
+    background-color: #444748;
+
+}
+.footer-wrapper > p {
+    margin-bottom: 0;
+    padding-bottom: 16px;
+    color: white;
+}

@@ -1,0 +1,77 @@
+.App-body{
+    display: inline-block;
+
+}
+.App-body > div{
+    max-width: 90vw;
+
+}
+.App-body > div > p {
+    text-align: justify;
+}
+.logos {
+    text-align: center;
+}
+.logos > img{
+    margin-top: 3rem;
+    border-radius: 15px;
+    cursor: pointer;
+    max-width: 70px;
+    max-height: 70px;
+    width:100px;
+    height:100px;
+}
+
+.body-header {
+    margin-block-start: unset;
+    margin-block-end: unset;
+    padding-top: 5rem;
+    height: 50vh;
+    width: 100vw;
+    background-color: darkgray;
+}
+.cool{
+    background-color: lightgray;
+}
+
+@media (min-width: 480px) {
+    .App-body{
+        background-color: aliceblue;
+        min-height: 50vh;
+        max-height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: left;
+    }
+    .App-body > div{
+        max-width: 33vw;
+    }
+    .logos > img{
+        border-radius: 25px;
+        background-color: white;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 620px) {
+    .App-body {}
+    .logos > img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+/*@media (min-width: 481px) and (max-width: 767px) {*/
+/*    .App-body{*/
+/*        display: inline-block;*/
+/*    }*/
+/*    .App-body > div{*/
+/*        max-width: 80vw;*/
+/*    }*/
+/*    .App-body > .logos > img{*/
+/*        margin-top: 5rem;*/
+/*        border-radius: 25px;*/
+/*        max-width: 80px;*/
+/*        max-height: 80px;*/
+/*    }*/

@@ -1,7 +1,7 @@
 {
   "name": "jonnydeatesportfolio",
-  "homepage": "",
-  "version": "2.5.1",
+  "homepage": "https://JonnyDeates.github.io/Jonny_Deates_Website_Wireframe",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.19",
@@ -20,14 +20,18 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "description": "This project is a representation of Jonny Deates' careeer and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
   "author": "Jonny Deates",
   "license": "ISC",
   "repository": {
